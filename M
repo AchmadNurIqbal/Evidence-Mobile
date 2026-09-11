@@ -1,0 +1,76 @@
+*** Overview *** 
+URL https://onemobilebyonmtls.nisp.id/byonu1/fundtransfer/branch/transaction-approval-validate
+Method POST
+Response Code 200
+Request Start Time Sep 11 2026 - 10:34:55
+Duration 1s
+
+*** Request Header *** 
+Content-Type application/json
+User-Agent OCBC/4.61.0 (com.ocbcnisp.byon.uat.vendors; build:20260910001; iOS 18.1.0) Alamofire/5.0.0-rc.2
+X-OCBC-APIKey ceed86d1-6abd-4f15-a8aa-8a8ea889a4f9
+X-OCBC-Platform iOS
+Authorization Bearer abfa652d-c736-411f-b43c-19f6f82f35ce
+x-dynatrace MT_3_1_5238189986390495_6-0_fa578b6b-c977-4b33-ba45-7bc78787c005_4_259_127
+X-OCBCNISP-OMNI-CHANNEL BYON
+Content-Length 57
+X-OCBC-Timestamp 2026-09-11T10:34:55.391+0700
+X-OCBCNISP-OMNI-SESSION aa4b7d59-afc3-4106-888e-85de7bb232d82944C92E-2B6E-4A33-9A33-70627BE2631B20260911103404113
+X-OCBC-Version 4.61.0
+X-OCBC-Signature Y2VlZDg2ZDEtNmFiZC00ZjE1LWE4YWEtOGE4ZWE4ODlhNGY5OjE5YTUxZDM4N2UxMThlYWI4NDlhYzAxMTVhZmMzNGQwY2Q0MDNkNzdlMmM1OGY4MTc1MDJhNzc2Njk4NjkyNTg6NTRFNzg0MkMtQ0VCMi00NTAwLUJBNTgtNjYyMzk4NjlBQzQwOjIwMjYtMDktMTFUMTA6MzQ6NTUuMzkxKzA3MDA=
+Accept-Language IN
+Accept-Encoding br;q=1.0, gzip;q=0.9, deflate;q=0.8
+
+
+*** Request Body *** 
+{
+  "currencyCode" : "",
+  "transactionId" : "NTI2026090000000595"
+}
+
+*** Response Header *** 
+Pragma no-cache
+content-security-policy script-src 'self'
+x-iinfo 18-28913023-28913070 NNYN CT(21 17 0) RT(1789097695449 165) q(0 0 0 -1) r(11 11) U6
+access-control-allow-headers x-requested-with, Content-Type, origin, authorization, accept, client-security-token
+x-cdn Imperva
+referrer-policy no-referrer, no-referrer-when-downgrade
+Cache-Control no-cache, no-store, max-age=0, must-revalidate
+x-ff 182.6.5.5, 107.154.59.17,10.111.10.222,10.32.2.1
+Content-Encoding gzip
+x-gravitee-transaction-id 1bc0f4cf-0521-42cc-80f4-cf052192ccde
+x-frame-options DENY
+Server istio-envoy
+Set-Cookie x-ff=182.6.5.5, 107.154.59.17,10.111.10.222,10.32.2.1; path=/; HttpOnly
+x-xss-protection 0
+x-content-type-options nosniff
+Expires 0
+x-envoy-upstream-service-time 15
+access-control-max-age 1000
+Date Fri, 11 Sep 2026 03:34:56 GMT
+Strict-Transport-Security max-age=31536000
+Content-Type application/json
+Access-Control-Allow-Origin *
+access-control-allow-methods POST, GET, OPTIONS, DELETE, PUT
+Vary Accept-Encoding
+
+
+*** Response Body *** 
+{
+  "language" : "ID",
+  "responseDescription" : "SUCCESS",
+  "data" : {
+    "transactionId" : "NTI2026090000000595",
+    "onlineSessionId" : "2026-09-11T10:34:56.689+0700-593ec3c7-ab84-4a72-a535-763d545f08c4"
+  },
+  "response_code" : "00000",
+  "responseTitle" : ""
+}
+
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+------------------------------------------------------------------------
+
+
+
+
